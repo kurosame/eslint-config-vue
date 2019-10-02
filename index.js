@@ -18,6 +18,10 @@ module.exports = {
     'import/resolver': 'webpack'
   },
   rules: {
-    'no-console': ['error', { allow: ['info', 'warn', 'error'] }]
+    'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
+    'no-param-reassign': [
+      'error',
+      { props: true, ignorePropertyModificationsFor: ['state'] }
+    ]
   }
 }
