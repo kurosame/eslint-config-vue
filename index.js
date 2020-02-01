@@ -23,6 +23,10 @@ module.exports = {
     'no-param-reassign': [
       'error',
       { props: true, ignorePropertyModificationsFor: ['state'] }
+    ],
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['stories/**', 'test/**'] }
     ]
   }
 }
