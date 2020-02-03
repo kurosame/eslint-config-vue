@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    jest: true
+    jest: true,
+    'cypress/globals': true
   },
   extends: [
     'airbnb-base',
@@ -11,6 +12,7 @@ module.exports = {
     'prettier/@typescript-eslint',
     'prettier/vue'
   ],
+  plugins: ['cypress'],
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@typescript-eslint/parser'
