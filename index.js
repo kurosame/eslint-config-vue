@@ -21,6 +21,7 @@ module.exports = {
     'import/resolver': 'webpack'
   },
   rules: {
+    camelcase: ['error', { properties: 'never' }],
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
     'no-param-reassign': [
       'error',
