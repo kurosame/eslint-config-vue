@@ -10,7 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
     'plugin:cypress/recommended',
-    'prettier',
+    'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
     'prettier/vue'
   ],
