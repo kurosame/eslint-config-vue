@@ -1,18 +1,20 @@
 module.exports = {
   env: {
     browser: true,
-    jest: true,
+    'jest/globals': true,
     'cypress/globals': true
   },
   extends: [
     'airbnb-base',
     'plugin:vue/recommended',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jest/recommended',
+    'plugin:cypress/recommended',
     'prettier',
     'prettier/@typescript-eslint',
     'prettier/vue'
   ],
-  plugins: ['cypress'],
+  plugins: ['jest', 'cypress'],
   parser: 'vue-eslint-parser',
   parserOptions: {
     parser: '@typescript-eslint/parser'
