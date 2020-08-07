@@ -1,4 +1,4 @@
-# ESLint Config Vue
+# ESLint Config Vue.js
 
 ## Installation
 

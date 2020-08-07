@@ -1,7 +1,7 @@
 {
   "name": "@kurosame/eslint-config-vue",
   "version": "1.0.10",
-  "description": "ESLint config for Vue",
+  "description": "ESLint config for Vue.js",
   "main": "index.js",
   "repository": {
     "type": "git",
