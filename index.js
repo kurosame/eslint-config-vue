@@ -32,6 +32,15 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       { devDependencies: ['stories/**', 'test/**'] }
+    ],
+    'prettier/prettier': [
+      'error',
+      {
+        arrowParens: 'avoid',
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'none'
+      }
     ]
   }
 }
