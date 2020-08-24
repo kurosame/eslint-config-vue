@@ -1,3 +1,3 @@
 {
-  "extends": [":pinDependencies"]
+  "extends": [":pinDependencies", ":automergeMajor"]
 }
